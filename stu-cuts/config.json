@@ -1,0 +1,40 @@
+{
+  "name": "stu-cuts",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "ny7ydbn558y0aij4evvc199yt345tks4",
+      "css": "videocam",
+      "code": 59394,
+      "src": "modernpics"
+    },
+    {
+      "uid": "eea613bc40c77b7eab137b29dba0c62f",
+      "css": "movie",
+      "code": 59396,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "40c6538b0fd40540bf78373f8a1fb7af",
+      "css": "videocam-1",
+      "code": 59397,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "09b251f36844ae25d58767d85d21bf88",
+      "css": "video-alt",
+      "code": 59393,
+      "src": "elusive"
+    },
+    {
+      "uid": "1e2149558b091788516ef5f589ac011e",
+      "css": "videocam-2",
+      "code": 59392,
+      "src": "elusive"
+    }
+  ]
+}

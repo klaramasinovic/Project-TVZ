@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: 
+            local('Open Sans'), 
+            local('OpenSans-Regular'), 
+            url(Open_Sans/OpenSans-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    src: 
+            local('Play'), 
+            local('Play-Regular'),
+            url(Play/Play-Regular.ttf) format('truetype');
+}
+
+

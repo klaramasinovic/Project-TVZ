@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2015 by original authors @ fontello.com</metadata>
+<defs>
+<font id="stu-cuts" horiz-adv-x="1000" >
+<font-face font-family="stu-cuts" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="videocam-2" unicode="&#xe800;" d="m0-37l0 774 775 0 0-325 225 325 0-774-225 324 0-324-775 0z" horiz-adv-x="1000" />
+<glyph glyph-name="video-alt" unicode="&#xe801;" d="m0-150l0 1000 883 0 0-1000-883 0z m45 119l109 0 0 82-109 0 0-82z m0 184l109 0 0 84-109 0 0-84z m0 185l109 0 0 82-109 0 0-82z m0 186l109 0 0 82-109 0 0-82z m0 183l109 0 0 83-109 0 0-83z m156-826l481 0 0 436-481 0 0-436z m0 467l481 0 0 436-481 0 0-436z m528-379l109 0 0 82-109 0 0-82z m0 184l109 0 0 84-109 0 0-84z m0 185l109 0 0 82-109 0 0-82z m0 186l109 0 0 82-109 0 0-82z m0 183l109 0 0 83-109 0 0-83z" horiz-adv-x="883" />
+<glyph glyph-name="videocam" unicode="&#xe802;" d="m741 414l255 159 0-445-255 158 0 128z m-741-314l0 500 683 0 0-500-683 0z" horiz-adv-x="996" />
+<glyph glyph-name="movie" unicode="&#xe804;" d="m0-31v761q0 37 26 62t62 26h117v-175h528v175h117q36 0 61-26t26-62v-761q0-36-26-62t-61-26h-117v176h-528v-176h-117q-36 0-62 26t-26 62z m74 44v-59h58v59h-58z m0 88h58v59h-58v-59z m0 146h58v59h-58v-59z m0 147h58v59h-58v-59z m0 146h58v59h-58v-59z m0 147h58v59h-58v-59z m131-484h528v293h-528v-293z m600-190v-59h58v59h-58z m0 88h58v59h-58v-59z m0 146h58v59h-58v-59z m0 147h58v59h-58v-59z m0 146h58v59h-58v-59z m0 147h58v59h-58v-59z" horiz-adv-x="937.5" />
+<glyph glyph-name="videocam-1" unicode="&#xe805;" d="m0 164v373q0 62 43 106t104 44h549q59 0 102-42t45-101l208 133q26 17 44 6t18-43v-578q0-33-18-44t-44 6l-208 133q-2-60-45-102t-102-41h-549q-61 0-104 44t-43 106z m636 353q0-18 13-31t31-13 31 13 13 31-13 31-31 13-31-13-13-31z" horiz-adv-x="1113.8" />
+</font>
+</defs>
+</svg>

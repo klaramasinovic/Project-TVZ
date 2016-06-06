@@ -1,0 +1,318 @@
+.lijevi p{
+	padding-right: 70px;
+}
+
+
+
+/******************************************/
+/**********************POVRATNA_STRELICA**/
+
+.pozadinaPovratneStrelice
+{
+	margin:0;
+	padding: 0;
+	background-color: rgba(255, 148, 0, 0.8);
+	-webkit-transition: background 300ms ease-in;
+	-moz-transition: background 300ms ease-in;
+	transition: background 300ms ease-in;
+	color:blue;
+}
+.pozadinaPovratneStrelice i{
+	text-align: center;
+	display: block;
+	font-size:2em; 
+	color:blue;
+
+}
+.pozadinaPovratneStrelice:hover{	 
+	background:#00447C;
+	cursor:pointer;
+}
+.pozadinaPovratneStrelice:hover i{	 
+background:transparent;
+	color: orange;
+}
+/****************************************/
+body {
+    width: 100%;
+    margin:0;
+    padding:0;  	
+    line-height: 1.5;    
+  	font-size: 16px;
+  	font-family: 'Open Sans', Arial, sans-serif;
+  	color:#00447C;
+}
+
+
+.logo{
+	padding-top: 5%;
+}
+
+.placeholder-tekst{
+	color: transparent;
+}
+
+
+
+p{
+	font-size:1em;
+}
+
+
+.podnaslovi{
+	margin-top:10px;
+	text-transform:uppercase;
+	font-size: 1.3333em;
+}
+/*************************************************/
+/***************************************LINKOVI**/
+body a:link{
+	text-decoration: none;
+	color: blue;
+}
+body a:visited{
+	text-decoration: none;
+	color: blue;
+}
+body a:hover{
+	text-decoration: none;
+	color: blue;
+}
+body a:active{
+	text-decoration: none;
+	color: blue;
+}
+
+
+/*************************************************/
+/***************************************FONTOVI**/
+.podnaslovi,h1,h2,h3,h4,h5,h6{
+	font-family: 'Play', Verdana, sans-serif;
+	text-transform:uppercase;
+}
+
+
+/************************************************/
+/**************************************STUDIJI**/
+
+.icon-plug,.icon-laptop,.icon-cog-alt,.icon-database,.icon-flow-cascade,.icon-commerical-building,.icon-cog-5{
+	font-size: 6em;
+	color:blue;
+
+}
+.icon-bank{
+		font-size: 6em;
+
+}
+/************************************************/
+/**************************************KONTAKT**/
+
+.izbornik-kontakt{
+	margin-top: 35px;
+}
+
+#kontakt #kontakt-elo, #kontakt #kontakt-rac, #kontakt #kontakt-info, #kontakt #kontakt-meh,#kontakt #kontakt-protOrt, #kontakt #kontakt-grad, #kontakt #kontakt-dekan,#kontakt #kontakt-lokacija{
+	cursor: pointer;
+	margin: 0;
+	padding: 0;
+	line-height: 1.5;
+	color: blue;
+}
+
+.kontakt-info{
+	display:none;	        
+
+
+	
+}
+
+#kontakt div p{
+
+}
+
+
+
+
+
+/************************************************/
+/***************************************FOOTER**/
+
+
+
+.site-footer{
+color:#00447C;
+	//color: white;
+	background-color:rgba(255, 148, 0,0.8);//#00559C;//rgba(255, 148, 0, 0.8);#ff9900;//;
+}
+
+.site-footer i{
+		color:blue;
+	//color:rgba(255, 148, 0,1);
+
+}
+.site-footer a{
+		color:blue;
+	//color:rgba(255, 148, 0,1);
+
+}
+.icon-group-circled,.icon-soccer-ball,.icon-videocam,.icon-library {
+	
+	font-size: 4em;
+}
+
+
+.icon-facebook-squared{
+	font-size: 2em;
+}
+/******************************************/
+/**************************TOP SEARCH*/
+
+.pozadinaLogoTop{
+padding-bottom:5%; 
+}
+
+.top-search{
+	text-align:right;
+	padding-top: 4%;
+	color:#00447C;
+	display: inline-block;
+}
+.icon-search{
+	font-size: 1.5em;
+}
+
+
+
+
+/*************************************/
+/*****************GLAVNA-NAVIGACIJA**/
+
+.main-navigation{
+
+}
+.main-navigation ul{
+	list-style: none;
+	margin:0px;
+	padding: 0px;
+}
+
+.main-navigation ul li{
+	text-align: center;	
+	padding: 0px;
+}
+.main-navigation ul li a{
+	font-size: 2em;
+	display:block;
+	margin: 0px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.main-navigation ul li a:link,.main-navigation ul li a:visited{
+text-decoration: none;
+color: #fff;// #0B5FA5;
+-webkit-transition: background 300ms ease-in;
+-moz-transition: background 300ms ease-in;
+transition: background 300ms ease-in;
+}
+.main-navigation ul li a:hover{
+text-decoration: none;
+color: #fff;//#FFDDAD;
+background: #00447C;
+}
+
+.main-navigation ul li a:active{
+text-decoration: none;
+color: #fff;
+background: #00447C;
+}
+.pozadinaNavigacije{	
+	background-color: rgba(255, 148, 0,0.8);
+}
+
+
+
+/************************************************/
+/**********************************HERO IMAGES**/
+.slika {
+	height: 100vh;
+	background: #333;
+	color: white;
+	clear: both;
+	position: relative;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+}
+.slika2 {
+	height: 150vh;
+	background: #333;
+	color: white;
+	clear: both;
+	position: relative;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+}
+.slika3 {
+	height: 50vh;
+	background: #333;
+	color: white;
+	clear: both;
+	position: relative;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+}
+.slika3 .slika-content {
+	font-size: 2em;
+	line-height: 1.5;
+	max-width: 600px;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+.slika-content {
+	font-size: 2em;
+	line-height: 1.5;
+	max-width: 600px;
+	position: absolute;
+	text-align: center;
+	top: 70%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+.slika-content .read-more{
+	margin: 0;
+}
+.slika-content .read-more a {  
+	padding: 12px 20px;
+	background: green;
+	display: inline-block;
+	color: white;	
+	font-size: 0.7em;
+	text-decoration: none;
+}
+.read-more{
+	margin: 0;
+
+}
+
+.read-more a{
+	padding: 12px 20px;
+	background: green;
+	display: inline-block;
+	color: white;	
+	font-size: 1em;
+	text-decoration: none;
+	
+}
+
+.slika-content h1{
+	color:#00447C;
+}
+/*********************************************************/

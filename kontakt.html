@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<title>Tehničko veleučilište u Zagrebu</title>
+	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" href="css/grid.css"/>	
+	<link rel="stylesheet" href="font-ikone/css/klarine-ikone.css"/>
+
+	
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700|Play:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+	<script src="jquery-1.9.1.min"></script>
+	
+    <script type="text/javascript">
+
+		function ikonaSearch(){    			
+    			document.getElementById('trenutni').innerHTML='';
+    			document.getElementById('trazilica').focus();
+    	}
+    	function ikonaGlobe(){    			    			
+                document.getElementById('trenutni').innerHTML='<img class="eng-flag" src="ikone/flag_eng.png" width="30px"/><img class="hr-flag" src="ikone/flag_hr.png" width="30px"/>';    	
+        }
+
+        $(document).ready(function() {
+    		$(".main-navigation a").click(function() {
+    			var $this = $(this);
+			    $('html, body').animate({
+			        scrollTop: $($this.attr('href')).offset().top
+			    }, 1000);
+
+			    return false;
+			});
+
+        });      
+
+
+    </script>
+
+</head>
+
+<body>
+
+<section class="pozadinaNavigacije">
+	<a href="index.html"><img src="tvz-blu_png.png" alt="tvz-logo-pocetna" width="10%" style="position:absolute;top:1.2%;left:1%;margin-bottom:10px;"/></a>
+				<div class="row">
+					<nav class="main-navigation">
+						<ul>
+							<li class="column column-3"><a href="oNama.html">O nama</a></li>	
+							<li class="column column-3"><a href="kontakt.html">Kontakt</a></li>	
+							<li class="column column-3"><a href="studiji.html">Studiji</a></li>
+							<li class="column column-3"><a href="erasmus.html">Erasmus</a></li>	
+						</ul>
+					</nav>
+				</div>	
+		</section>
+
+
+
+<section class="slika3" style="background-image: url(slike-stranica/contactus.jpg); color:#00447C;">	
+	<div id="upisi" class="slika-content">
+		<i class="icon-phone" style="font-size:2em;"></i>			
+		<h1 style="color:#fff">Kontakt</h1>		
+	</div>	
+</section>
+
+<section style="font-size:larger;position:relative; top:30%;">
+		<br/><br/>
+		<div class="row">			
+			<div class="column column-3">
+				<i class="icon-bank "></i>
+			</div>					
+			<div class="kontakt-dekan-sadrzaj column column-4">
+				<p class="podnaslovi">Ured dekana</p>
+				<p>
+					dr.sc. Slavica Ćosović Bajić, izv.prof.<br/><br/>
+
+					tel: ++385 1 5603 900<br/>
+					fax: ++385 1 5603 999<br/><br/>
+
+					e-mail:&nbsp;<a href="mailto:tvz@tvz.hr" onclick="__gaTracker('send', 'event', 'mailto', 'tvz@tvz.hr');">tvz@tvz.hr</a>
+				<p>	
+			</div>
+			<div class="column column-5">							
+				<iframe src="https://www.google.com/maps/d/embed?mid=ztcMHDFpHnME.kQ3_MoFrOfvM" width="440" height="380"></iframe>									
+			</div>										
+		</div>
+		<br/><br/>
+	</section>
+<section class="slika3" style="background-image: url(slike-stranica/contactus.jpg); color:#00447C;">	
+
+</section>
+		<section><br/><br/>
+		<div class="row">
+			<h1>Kontaktiraj referadu!</h1>
+		</div><br/>
+		<div class="row">
+			<div class="izbor" style="cursor:pointer;">
+					<i class="column column-2 icon-flow-cascade" id="kontakt-elo"></i>
+					<i class="column column-2 icon-database"  id="kontakt-rac" ></i>
+					<i class="column column-2 icon-laptop" id="kontakt-info"></i>
+					<i class="column column-2 icon-cog-alt"  id="kontakt-meh" ></i>
+					<i class="column column-2 icon-cog-5" id="kontakt-protOrt"></i>
+					<i class="column column-2 icon-commerical-building"  id="kontakt-grad" ></i>
+			</div>
+			
+		</div>
+		<div class="row">			
+			<div class="izbornik-kontakt" style="text-align:center;">
+					<p class="column column-2" id="kontakt-elo">Elektrotehnika</p>
+					<p class="column column-2" id="kontakt-rac">Računarstvo</p>
+					<p class="column column-2" id="kontakt-info">Informatika</p>
+					<p class="column column-2" id="kontakt-meh">Mehatronika</p>
+					<p class="column column-2" id="kontakt-protOrt">Protetika i ortotika</p>
+					<p class="column column-2" id="kontakt-grad">Graditeljstvo</p>
+			</div><br/><br/><br/><br/>
+		</div>
+		<div  class="kontakt-info row">
+			<div class="column column-2"><i class="icon-flow-cascade" style="position:relative;top:40px;"></i></div>
+			<div class="column column-4">
+				<p class="podnaslovi">Elektrotehnika</p>
+				<p>				
+					Elektrotehnički odjel<br/><br/>
+					Konavoska 2<br/>
+					10000 Zagreb<br/>							
+					Žiro račun: 2360000-1101350801								
+					<br/><br/>
+					e-mail:&nbsp;<a href="mailto:elektrotehnika@tvz.hr" onclick="__gaTracker('send', 'event', 'mailto', 'elektrotehnika@tvz.hr');">elektrotehnika@tvz.hr</a><br/><br/>
+					<b>Stručni studij elektrotehnike</b><br/>
+							tel: ++385 1 5595 320<br/>   
+					<span class="placeholder-tekst">tel: </span>++385 1 5595 321<br/>
+							fax: ++385 1 5595 360<br/><br/>
+									
+					<b>Specijalistički studij elektrotehnike</b><br/>		
+							 tel: ++385 1 5595 318
+				</p>
+			</div>
+			<div class="column column-6">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2781.5770239379963!2d15.9280461!3d45.79970105!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d6b5af016819%3A0x4eb0daae0c7a0005!2sTehni%C4%8Dko+veleu%C4%8Dili%C5%A1te+u+Zagrebu!5e0!3m2!1shr!2shr!4v1435518684322" width="460" height="350" frameborder="0" style="border:0; position:relative;top:65px;" allowfullscreen></iframe>
+			</div>
+		</div>
+
+		<div  class="kontakt-info row">
+			<div class="column column-2"><i class="icon-database" style="position:relative;top:40px;"></i></div>
+			<div class="column column-4">
+				<p class="podnaslovi">Računarstvo</p>
+				<p>
+					Informatičko-računarski odjel<br/><br/>
+					Vrbik 8<br/>
+					10000 Zagreb<br/>							
+					Žiro račun: 2360000-1101350801<br/><br/>
+					e-mail:&nbsp;<a href="mailto:racunarstvo@tvz.hr" onclick="__gaTracker('send', 'event', 'mailto', 'racunarstvo@tvz.hr');">racunarstvo@tvz.hr</a><br/><br/>
+					<b>Stručni studij računarstva</b><br/>
+					tel: ++385 1 5603 944<br/>
+					fax: ++385 1 5603 999<br/><br/>
+				</p>
+			</div>
+			<div class="column column-6">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2781.78329503293!2d15.96809184999999!3d45.79556904999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d68b441ce2df%3A0x54e2a03adf42446f!2sTehni%C4%8Dko+veleu%C4%8Dili%C5%A1te+u+Zagrebu!5e0!3m2!1shr!2shr!4v1435518834147" width="460" height="350" frameborder="0" style="border:0; position:relative;top:65px;" allowfullscreen></iframe>
+			</div>
+		</div>
+
+		<div  class="kontakt-info row">
+			<div class="column column-2"><i class="icon-laptop" style="position:relative;top:30px;"></i></div>
+			<div class="column column-4">
+				<p class="podnaslovi">Informatika</p>
+				<p>
+					Informatičko-računarski odjel<br/><br/>
+					Vrbik 8<br/>
+					10000 Zagreb<br/>							
+					Žiro račun: 2360000-1101350801<br/><br/>
+					e-mail:&nbsp;<a href="mailto:informatika@tvz.hr" onclick="__gaTracker('send', 'event', 'mailto', 'informatika@tvz.hr');">informatika@tvz.hr</a><br/><br/>
+					<b>Stručni studij informatike</b><br/>
+					tel: ++385 1 5603 944<br/>
+					fax: ++385 1 5603 999<br/><br/>
+					<b>Specijalistički studij informatike</b><br/>
+					tel: ++385 1 5595 319	
+				</p>
+			</div>
+			<div class="column column-6">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2781.78329503293!2d15.96809184999999!3d45.79556904999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d68b441ce2df%3A0x54e2a03adf42446f!2sTehni%C4%8Dko+veleu%C4%8Dili%C5%A1te+u+Zagrebu!5e0!3m2!1shr!2shr!4v1435518834147" width="460" height="350" frameborder="0" style="border:0; position:relative;top:65px;" allowfullscreen></iframe>
+			</div>
+		</div>
+				
+		<div  class="kontakt-info row">
+			<div class="column column-2"><i class="icon-cog-alt" style="position:relative;top:40px;"></i></div>
+			<div class="column column-4">
+				<p class="podnaslovi">Mehatronika</p>
+				<p>		
+					Strojarski odjel<br/><br/>
+					Vrbik 8 (1. kat, Urudžbeni)<br/> 
+					10000 Zagreb<br/>
+					Žiro račun (IBAN): HR8023600001101350801<br/><br/>
+
+					e-mail:&nbsp;<a href="mailto:mehatronika@tvz.hr" onclick="__gaTracker('send', 'event', 'mailto', 'mehatronika@tvz.hr');">mehatronika@tvz.hr</a><br/><br/>
+														
+					<b>Stručni studij mehatronike</b><br/>
+					Tel: 01/5603-926<br/>
+					Fax: 01/5603-999
+				</p>
+			</div>
+			<div class="column column-6">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2781.78329503293!2d15.96809184999999!3d45.79556904999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d68b441ce2df%3A0x54e2a03adf42446f!2sTehni%C4%8Dko+veleu%C4%8Dili%C5%A1te+u+Zagrebu!5e0!3m2!1shr!2shr!4v1435518834147" width="460" height="350" frameborder="0" style="border:0; position:relative;top:65px;" allowfullscreen></iframe>
+			</div>
+		</div>	
+
+		<div  class="kontakt-info row">
+			<div class="column column-2"><i class="icon-cog-5" style="position:relative;top:40px;"></i></div>
+			<div class="column column-4">
+				<p class="podnaslovi">Protetika i ortotika</p>
+				<p>
+					Strojarski odjel<br/><br/>
+							
+					Vrbik 8<br/>
+					10000 Zagreb<br/>
+					Žiro račun: 2360000-1101350801<br/><br/>
+					e-mail:&nbsp;<a href="mailto:pbonacicb@tvz.hr" onclick="__gaTracker('send', 'event', 'mailto', 'pbonacicb@tvz.hr');">pbonacicb@tvz.hr</a><br/><br/>
+							
+							
+					<b>Stručni studij protetike i ortotike</b><br/>
+					Tel: +38598 286 515							
+				</p>
+			</div>
+			<div class="column column-6">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2781.78329503293!2d15.96809184999999!3d45.79556904999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d68b441ce2df%3A0x54e2a03adf42446f!2sTehni%C4%8Dko+veleu%C4%8Dili%C5%A1te+u+Zagrebu!5e0!3m2!1shr!2shr!4v1435518834147" width="460" height="350" frameborder="0" style="border:0; position:relative;top:65px;" allowfullscreen></iframe>
+			</div>
+		</div>		
+
+		<div  class="kontakt-info row">
+			<div class="column column-2"><i class="icon-commerical-building" style="position:relative;top:40px;"></i></div>
+			<div class="column column-4">
+				<p class="podnaslovi">Graditeljstvo</p>
+				<p>		
+					Graditeljski odjel<br/><br/>
+
+					Avenija Većeslava Holjevca 15<br/>
+					10010 Zagreb<br/>
+					Žiro račun: 2360000-1101350801<br/><br/>
+					e-mail:&nbsp;<a href="mailto:graditeljstvo@tvz.hr" onclick="__gaTracker('send', 'event', 'mailto', 'graditeljstvo@tvz.hr');">graditeljstvo@tvz.hr</a><br/><br/>
+					<b>Stručni studij graditeljstva</b><br/>
+					tel: ++385 1 5595455<br/><br/>
+					<b>Specijalistički studij graditeljstva</b><br/>
+					tel: ++385 1 5595 467	
+				</p>
+			</div>
+			<div class="column column-6">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2782.916362265713!2d15.982259299999994!3d45.7728664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d5df2ce2b897%3A0xebb9d7f5772a2baf!2sAvenija+Ve%C4%87eslava+Holjevca+15%2C+10000%2C+Zagreb!5e0!3m2!1shr!2shr!4v1435519284714" width="460" height="350" frameborder="0" style="border:0; position:relative;top:65px;" allowfullscreen></iframe>
+			</div>
+		</div>			<br/><br/>	<br/>	
+								
+			
+		
+	</section>
+	<script>
+		$(document).ready(function(){
+			var link= $("[id^=kontakt-]");
+			var kont=$('.kontakt-info');
+			var pocetni=$("#curr");
+			link.each(function(i,e){
+			 $(this).click(function(){
+			 	pocetni.css({'display':'none'})
+			 	kont.css({'display':'none'});
+			 	kont.eq(i).css({'display':'block'})
+			 })
+			})
+		})
+	</script>
+
+
+
+	<section class="pozadinaPovratneStrelice">		
+		<div class="row">					
+			<div class="column column-12">
+				<a href="#"><i class="icon-up-open"></i></a>
+			</div>						
+		</div>	
+	</section>
+		<footer class="site-footer"> <br/><br/>
+		<div class="row"><div class="column column-12"><h3>Pogledajte u kakvim sve aktivnostima možete sudjelovati kao student TVZ-a</h3></div></div><br/>
+	    <div class="row">	      
+	      
+	      <div class="footer-linkovi column column-3" >
+	      	
+	      	<a href="http://szbor.tvz.hr/" target="_blank"><i class="icon-group-circled"></i></a><br/><a href="http://szbor.tvz.hr/"  target="_blank"> Szbor.tvz.hr </a>
+	      	
+	      	<p>Na stranici Studentskog zbora TVZ-a možete naći <br/>sve vezano uz život na <br/>TVZ-u i brojne korisne linkove.</p>
+	      </div>
+	      <div class="footer-linkovi column column-3">
+	      	<a href="http://sport.tvz.hr/" target="_blank"><i class="icon-soccer-ball"></i></a><br/><a href="http://sport.tvz.hr/"  target="_blank"> Sport.tvz.hr</a>
+	      	<p>Sportska udruga studenata TVZ-a organizira brojna sportska događanja. <br/>Zaviri u uspješan svijet sporta na TVZ-u i zavidne rezultate.</p>
+	      </div>
+	      <div class="column column-3">
+		      	<a href="http://www.studentcuts.hr/" target="_blank"><i class="icon-videocam"></i></a><br/><a href="http://www.studentcuts.hr/"  target="_blank"> StudentCuts.hr</a>
+		      	      	
+		      <p>Student Cuts je festival studentske kreativnosti. Možete sudjelovati vlastitim radom, sudjelovati u organizaciji ili samo doći i uživati u radovima kolega!
+	      	   </p>
+		  </div>
+	      <div class="column column-3">
+	      	  <a href="http://polytechnicanddesign.tvz.hr/" target="_blank"><i class="icon-library"></i></a><br/><a href="http://polytechnicanddesign.tvz.hr/"  target="_blank"> PolytechnicAndDesign.tvz.hr</a>
+		      	      	
+		      <p>Preuzmite časopis i pročitajte zanimljive radove vaših kolega, asistenata i profesora!</p>
+	      </div>
+	    </div>
+	    <div class="row" style="a:hover{border-width:0px;}">
+	    	<div class="column column-3">
+	    		<a href="https://www.facebook.com/szbor.tvz?fref=ts" target="_blank"><i class="icon-facebook-squared"></i> <br/>Studentski zbor TVZ-a na Facebooku</a>
+	    	</div>
+	    	<div class="column column-3">
+	    		<a href="https://www.facebook.com/sustvz?fref=ts" target="_blank"><i class="icon-facebook-squared"></i> <br/>Sportska udruga na Facebooku</a>
+	    	</div>
+	    	<div class="column column-3">
+	    		<a href="https://www.facebook.com/studentcutshr?ref=ts&fref=ts" target="_blank"><i class="icon-facebook-squared"></i><br/>Student Cuts na Facebooku</a>
+	    	</div>
+	    	<div class="column column-3">
+	    		<a href="http://www.tiskarstvo.net/polytechnicanddesign/"><br/><br/>Tiskarstvo.net</a>
+	    	</div>
+	    </div><br/>
+	   
+	    <div class="row">
+	    	<div class="column column-12">
+	    		<h6>Klara Mašinović 2015</h6>
+	    	</div>
+	    </div>
+    </footer>
+
+	</body>
+
+</html>
